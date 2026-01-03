@@ -16,10 +16,12 @@ body {
     background-color: #ffffff;
     padding: 30px 40px;
     border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 h1 {
     margin-bottom: 5px;
+    color: #222;
 }
 
 p {
