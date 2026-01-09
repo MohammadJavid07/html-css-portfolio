@@ -99,6 +99,24 @@ body {
     background-color: var(--dark);
     color: white;
 }
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 15px 0;
+    font-size: 1.05rem;
+}
+
+.contact-item img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1); /* white icons for dark section */
+}
+
+.section.dark a,
+.section.dark span {
+    color: white;
+}
 
 /* SKILLS */
 .skills-grid {
